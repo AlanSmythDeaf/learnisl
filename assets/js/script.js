@@ -98,4 +98,9 @@ const questions = [
           {text: "I", correct: true},
           ]
     }
-    ]
+    ];
+
+const questionElement = document.getElementById("question");
+const answerButton = document.getElementById("answer-button");
+const nextButton = document.getElementById("next-btn");
+
