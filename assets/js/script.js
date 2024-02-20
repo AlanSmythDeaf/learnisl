@@ -160,9 +160,9 @@ Array.from(answerButtons.children).forEach(button => {
 
 function showScore(){
   resetState();
-  questionElement.innerHTML = 'You scored ${score} out of ${questions.lenght}!';
-  nextButton.innerHTML = "play Again"
-  nextButton.innerHTML = "Home"
+  questionElement.innerHTML = 'You scored ${score} out of ${questions.length}!';
+  nextButton.innerHTML = "Play Again"
+}
 
 function handleNextButton(){
   currentQuestionIndex++;
@@ -170,7 +170,6 @@ function handleNextButton(){
     showQuestion();
   }else{
     showScore();
-  }
   }
 }
 
@@ -182,4 +181,4 @@ nextButton.addEventListener("click", ()=>{
   }
   });
 
-startQuiz()
+startQuiz();
