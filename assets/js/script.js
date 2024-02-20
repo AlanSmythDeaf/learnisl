@@ -105,9 +105,11 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
+let score = 0;
 
 function startQuiz (){
   currentQuestionIndex = 0;
+  score = 0;
   nextButton.innerHTML = "Next";
   showQuestion();
 }
@@ -143,6 +145,7 @@ function selectAnswer(e){
   const isCorrect = selectBtn.dataset.correct === "true";
   if(isCorrect){
       selectBtn.classList.add("correct");
+      score++;
 }else{
       selectBtn.classList.add("incorrect");
 }
@@ -151,8 +154,32 @@ Array.from(answerButtons.children).forEach(button => {
       button.classList.add("correct");
   }
   button.disabled = true;
-});
-nextButton.style.display = "block";
+  });
+  nextButton.style.display = "block";
 }
+
+function showScore(){
+  resetState();
+  questionElement.innerHTML = 'You scored ${score} out of ${questions.lenght}!';
+  nextButton.innerHTML = "play Again"
+  nextButton.innerHTML = "Home"
+
+function handleNextButton(){
+  currentQuestionIndex++;
+  if(currentQuestionIndex < questions.length){
+    showQuestion();
+  }else{
+    showScore();
+  }
+  }
+}
+
+nextButton.addEventListener("click", ()=>{
+  if(currentQuestionIndex < questions.length){
+    handleNextButton();
+  }else{
+    startQuiz();
+  }
+  });
 
 startQuiz()
