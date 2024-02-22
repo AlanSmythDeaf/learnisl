@@ -12,12 +12,46 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("/images/bkground_image.png");
 
 }
 /* Header */
 
 /* Main */
 
+/* index Page*/
+.welcome-text{
+    color: antiquewhite;
+    margin-bottom: 20px;    
+    border-bottom: 1px whitesmoke;
+
+}
+
+.controls{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* Game Page */
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 50px;
+    width: 200px;
+    border-radius:50px;
+    margin: 5px;
+}
 
 .correct {
     background: #9aeabc;
@@ -28,3 +62,12 @@ body {
 }
 /* footer */
 
+
+/* Media Query: Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { }
+
+/* Media Query: Large devices (laptops/desktops, 1024px and up) */
+ @media only screen and (min-width: 1024px) { }
+
+/* Media Query: Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) { }
