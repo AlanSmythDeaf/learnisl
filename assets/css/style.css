@@ -1,3 +1,24 @@
+/* Asterisk wilcard */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style */
+body {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* Header */
+
+/* Main */
+
+
 .correct {
     background: #9aeabc;
 }
@@ -5,3 +26,5 @@
 .incorrect{
     background: #ff9393;
 }
+/* footer */
+
