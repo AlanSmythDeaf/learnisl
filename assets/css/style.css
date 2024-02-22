@@ -33,8 +33,21 @@ body {
     text-align: center;
 }
 
+#start {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    display:block;
+    font-size: 2rem;
+    pad
+}
 
-
+#howbutton {
+    width: 80%;
+    margin: auto;
+    display: block;
+    font-size: 2rem;
+}
 
 /* Game Page */
 .container{
@@ -60,6 +73,13 @@ body {
 .incorrect{
     background: #ff9393;
 }
+
+#next-btn {
+    Margin: auto;
+    width: 40%;
+    font-size: x-large;
+}
+
 /* footer */
 
 
