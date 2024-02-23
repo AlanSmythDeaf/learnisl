@@ -1,16 +1,17 @@
 const questions = [
     { 
-      question: "1 what is the sign for this a image A?",
+      question: "what is the sign for this image?",
       answers: [
         {text: "A", correct: true},
         {text: "I", correct: false},
         {text: "T", correct: false},
         {text: "O", correct: false},
         ]
+        image: "assets/images/islq1.png"
     },
 
     {
-        question: "2 what is the sign for this a image R?",
+        question: "what is the sign for this a image R?",
         answers: [
           {text: "Z", correct: false},
           {text: "G", correct: false},
@@ -20,7 +21,7 @@ const questions = [
     },
 
     {
-        question: "3 what is the sign for this a image m?",
+        question: "what is the sign for this a image m?",
         answers: [
           {text: "N", correct: false},
           {text: "M", correct: true},
@@ -30,7 +31,7 @@ const questions = [
     },
 
     {
-        question: "4 what is the sign for this a image O?",
+        question: "what is the sign for this a image O?",
         answers: [
           {text: "O", correct: true},
           {text: "G", correct: false},
@@ -40,7 +41,7 @@ const questions = [
     },
 
     {
-        question: "5 what is the sign for this a image S?",
+        question: "what is the sign for this a image S?",
         answers: [
           {text: "B", correct: false},
           {text: "P", correct: false},
@@ -50,7 +51,7 @@ const questions = [
     },
 
     {
-        question: "6 what is the sign for this a image K?",
+        question: "what is the sign for this a image K?",
         answers: [
           {text: "Q", correct: false},
           {text: "K", correct: true},
@@ -60,7 +61,7 @@ const questions = [
     },
 
     {
-        question: "7 what is the sign for this a image T?",
+        question: "what is the sign for this a image T?",
         answers: [
           {text: "T", correct: true},
           {text: "H", correct: false},
@@ -70,7 +71,7 @@ const questions = [
     },
 
     {
-        question: "8 what is the sign for this a image Y?",
+        question: "what is the sign for this a image Y?",
         answers: [
           {text: "B", correct: false},
           {text: "L", correct: false},
@@ -80,7 +81,7 @@ const questions = [
     },
 
     {
-        question: "9 what is the sign for this a image n?",
+        question: "what is the sign for this a image n?",
         answers: [
           {text: "M", correct: false},
           {text: "N", correct: true},
@@ -90,7 +91,7 @@ const questions = [
     },
 
     {
-        question: "10what is the sign for this a image I?",
+        question: "what is the sign for this a image I?",
         answers: [
           {text: "F", correct: false},
           {text: "G", correct: false},
@@ -160,7 +161,7 @@ Array.from(answerButtons.children).forEach(button => {
 
 function showScore(){
   resetState();
-  questionElement.innerHTML = 'You scored ${score} out of ${questions.length}!';
+  questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
 }
@@ -174,7 +175,7 @@ function handleNextButton(){
   }
 }
 
-nextButton.addEventListener("click", ()=>{
+nextButton.addEventListener("click", () => {
   if(currentQuestionIndex < questions.length){
     handleNextButton();
   }else{
