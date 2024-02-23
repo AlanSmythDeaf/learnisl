@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("/images/bkground_image.png");
+    background-image: url("../images/bkground_image.png");
 
 }
 /* Header */

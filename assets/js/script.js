@@ -7,7 +7,6 @@ const questions = [
         {text: "T", correct: false},
         {text: "O", correct: false},
         ]
-        image: "assets/images/islq1.png"
     },
 
     {
