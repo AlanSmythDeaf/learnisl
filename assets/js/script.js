@@ -146,8 +146,16 @@ function selectAnswer(e){
   if(isCorrect){
       selectBtn.classList.add("correct");
       score++;
+      swal({
+        title: "WELL DONE",
+        icon: "success",
+      });
 }else{
       selectBtn.classList.add("incorrect");
+      swal({
+        title: "HARD LUCK",
+        icon: "error",
+      });
 }
 Array.from(answerButtons.children).forEach(button => {
   if(button.dataset.correct === "true"){

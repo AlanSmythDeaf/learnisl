@@ -65,14 +65,6 @@ body {
     margin: 5px;
 }
 
-.correct {
-    background: #9aeabc;
-}
-
-.incorrect{
-    background: #ff9393;
-}
-
 #next-btn {
     Margin: auto;
     width: 40%;
