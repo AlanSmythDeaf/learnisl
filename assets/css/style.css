@@ -36,6 +36,7 @@ body {
 #start {
     width: 80%;
     margin: auto;
+    padding: 5px;
     margin-bottom: 10px;
     font-size: 2rem;
     pad
@@ -44,6 +45,7 @@ body {
 #howbutton {
     width: 80%;
     margin: auto;
+    padding: 5px;
     display: block;
     font-size: 2rem;
 }
@@ -58,6 +60,10 @@ body {
     border-radius: 10px;
 }
 
+#question {
+    font-size: larger;
+}
+
 .btn{
     font-size: 50px;
     width: 200px;
@@ -67,8 +73,13 @@ body {
 
 #next-btn {
     Margin: auto;
-    width: 40%;
+    padding: 15px;
+    width: 30%;
     font-size: x-large;
+}
+
+.score-board {
+    text-align: right;
 }
 
 /* footer */

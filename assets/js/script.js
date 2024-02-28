@@ -6,7 +6,8 @@ const questions = [
         {text: "I", correct: false},
         {text: "T", correct: false},
         {text: "O", correct: false},
-        ]
+        ],
+        image: "assets/images/isla.png",
     },
 
     {
@@ -16,7 +17,8 @@ const questions = [
           {text: "G", correct: false},
           {text: "R", correct: true},
           {text: "H", correct: false},
-          ]
+          ],
+          image: "assets/images/islr.png",
     },
 
     {
@@ -27,6 +29,7 @@ const questions = [
           {text: "P", correct: false},
           {text: "I", correct: false},
           ]
+          image: "assets/images/islm.png", 
     },
 
     {
@@ -37,6 +40,7 @@ const questions = [
           {text: "S", correct: false},
           {text: "C", correct: false},
           ]
+          image: "assets/images/islo.png",
     },
 
     {
@@ -47,6 +51,7 @@ const questions = [
           {text: "K", correct: false},
           {text: "S", correct: true},
           ]
+          image: "assets/images/isls.png", 
     },
 
     {
@@ -57,6 +62,7 @@ const questions = [
           {text: "O", correct: false},
           {text: "T", correct: false},
           ]
+          image: "assets/images/islk.png", 
     },
 
     {
@@ -67,6 +73,7 @@ const questions = [
           {text: "A", correct: false},
           {text: "I", correct: false},
           ]
+          image: "assets/images/islt.png", 
     },
 
     {
@@ -77,6 +84,7 @@ const questions = [
           {text: "Y", correct: true},
           {text: "X", correct: false},
           ]
+          image: "assets/images/isly.png", 
     },
 
     {
@@ -87,6 +95,7 @@ const questions = [
           {text: "P", correct: false},
           {text: "A", correct: false},
           ]
+          image: "assets/images/isln.png", 
     },
 
     {
@@ -97,12 +106,17 @@ const questions = [
           {text: "K", correct: false},
           {text: "I", correct: true},
           ]
+          image: "assets/images/isli.png", 
     }
     ];
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+
+let questionImg = document.getElementById("image");
+
+document.getElementById('image').src = question.image;
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -116,6 +130,7 @@ function startQuiz (){
 
 function showQuestion(){
   resetState();
+  questionImg.src = currentQuestion.image;
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
   questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
