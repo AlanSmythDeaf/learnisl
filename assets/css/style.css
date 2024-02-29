@@ -39,7 +39,7 @@ body {
     padding: 5px;
     margin-bottom: 10px;
     font-size: 2rem;
-    pad
+    border-radius: 10px;
 }
 
 #howbutton {
@@ -48,6 +48,7 @@ body {
     padding: 5px;
     display: block;
     font-size: 2rem;
+    border-radius: 10px;
 }
 
 /* Game Page */
@@ -84,10 +85,14 @@ body {
     font-size: x-large;
 }
 
-.score-board {
-    text-align: right;
+.bottom {
+    width: 10%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
-
 /* footer */
 
 
