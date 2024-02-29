@@ -113,11 +113,31 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const timer = document.getElementById('timer');
+
 let questionImg = document.getElementById("image");
+
+let sec = 120;
+let innertime = setTimeout(myTimer,1000);
 
 let currentQuestionIndex = 0;
 let score = 0;
 let shuffledQuestions = currentQuestionIndex;
+
+function myTimer() {
+  const time = setInterval(function () {
+    timer.innerHTML = sec + "seconds left";
+    sec--;
+
+    if (sec === -1) {
+      clearInterval(time);
+      alert("Game Over");
+
+      window.location.href = 'index.html';
+    }
+  }, 1000);
+}
+
 
 function startQuiz (){
   shuffledQuestions = questions.sort(() => Math.random() - .5);
@@ -183,8 +203,9 @@ Array.from(answerButtons.children).forEach(button => {
 function showScore(){
   resetState();
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-  nextButton.innerHTML = "Play Again";
-  nextButton.style.display = "block";
+ 
+  timer.style.display = "none"
+  questionImg.style.display = "none"
 }
 
 function handleNextButton(){
