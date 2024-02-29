@@ -117,8 +117,10 @@ let questionImg = document.getElementById("image");
 
 let currentQuestionIndex = 0;
 let score = 0;
+let shuffledQuestions = currentQuestionIndex;
 
 function startQuiz (){
+  shuffledQuestions = questions.sort(() => Math.random() - .5);
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
