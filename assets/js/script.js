@@ -11,7 +11,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image R?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "Z", correct: false},
           {text: "G", correct: false},
@@ -22,90 +22,90 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image m?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "N", correct: false},
           {text: "M", correct: true},
           {text: "P", correct: false},
           {text: "I", correct: false},
-          ]
+          ],
           image: "assets/images/islm.png", 
     },
 
     {
-        question: "what is the sign for this a image O?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "O", correct: true},
           {text: "G", correct: false},
           {text: "S", correct: false},
           {text: "C", correct: false},
-          ]
+          ],
           image: "assets/images/islo.png",
     },
 
     {
-        question: "what is the sign for this a image S?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "B", correct: false},
           {text: "P", correct: false},
           {text: "K", correct: false},
           {text: "S", correct: true},
-          ]
+          ],
           image: "assets/images/isls.png", 
     },
 
     {
-        question: "what is the sign for this a image K?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "Q", correct: false},
           {text: "K", correct: true},
           {text: "O", correct: false},
           {text: "T", correct: false},
-          ]
+          ],
           image: "assets/images/islk.png", 
     },
 
     {
-        question: "what is the sign for this a image T?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "T", correct: true},
           {text: "H", correct: false},
           {text: "A", correct: false},
           {text: "I", correct: false},
-          ]
+          ],
           image: "assets/images/islt.png", 
     },
 
     {
-        question: "what is the sign for this a image Y?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "B", correct: false},
           {text: "L", correct: false},
           {text: "Y", correct: true},
           {text: "X", correct: false},
-          ]
+          ],
           image: "assets/images/isly.png", 
     },
 
     {
-        question: "what is the sign for this a image n?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "M", correct: false},
           {text: "N", correct: true},
           {text: "P", correct: false},
           {text: "A", correct: false},
-          ]
+          ],
           image: "assets/images/isln.png", 
     },
 
     {
-        question: "what is the sign for this a image I?",
+        question: "what is the sign for this a image?",
         answers: [
           {text: "F", correct: false},
           {text: "G", correct: false},
           {text: "K", correct: false},
           {text: "I", correct: true},
-          ]
+          ],
           image: "assets/images/isli.png", 
     }
     ];
@@ -127,8 +127,8 @@ function startQuiz (){
 
 function showQuestion(){
   resetState();
-  questionImg.src = currentQuestion.image;
   let currentQuestion = questions[currentQuestionIndex];
+  questionImg.src = currentQuestion.image;
   let questionNo = currentQuestionIndex + 1;
   questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
