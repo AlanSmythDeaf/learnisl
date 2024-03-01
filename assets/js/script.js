@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 const questions = [
     { 
       question: "what is the sign for this image?",
