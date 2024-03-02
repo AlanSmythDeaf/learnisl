@@ -120,14 +120,14 @@ const timer = document.getElementById('timer');
 let questionImg = document.getElementById("image");
 
 let sec = 120;
-let innertime = setTimeout(myTimer,1000);
+let time = setTimeout(myTimer,1000);
 
 let currentQuestionIndex = 0;
 let score = 0;
 let shuffledQuestions = currentQuestionIndex;
 
 function myTimer() {
-  const time = setInterval(function () {
+ time = setInterval(function () {
     timer.innerHTML = sec + "seconds left";
     sec--;
 
@@ -204,10 +204,9 @@ Array.from(answerButtons.children).forEach(button => {
 
 function showScore(){
   resetState();
+  clearInterval(time);
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
- 
-  timer.style.display = "none"
-  questionImg.style.display = "none"
+  questionImg.style.display = "none";
 }
 
 function handleNextButton(){
