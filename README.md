@@ -15,11 +15,10 @@ When I decied to an online quiz, had many different options but decided to go wi
 
 The main color in the back that I decided to use is
 
-- `#faebd7` used for primary text in index page.
-- `#000000` used for primary text in game page.
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-![screenshot](documentation/coolors.png)
+- `#005677` used for background colour of all the pages.
+- `#FAEBD7` used for inside quiz game page.
+- `#FFFFFF` used for primary text.
+- `#000000` used for for buttons and for how to play page.
 
 ### Typography
 
@@ -31,7 +30,6 @@ I use the font Verdana as it's it score highly for web accessibility, I kept tha
 ### New Site Users
 
 - As a new site user, I would like to easily understand where to go and how to play the quiz.
-- As a new site user, I would like to ____________, so that I can ____________.
 
 ### Returning Site Users
 
@@ -43,59 +41,33 @@ Balsamiq was used to create a layout of the website in the planning idea for the
 
 ### Mobile Wireframes
 
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
-
-Game
-  - ![screenshot](documentation/wireframes/mobile-about.png)
-
-How to play
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+| Index | Game | How to play |
+| ------------- | ------------- | ------------- |
+| ![screenshot](documentation/wireframe/index-mobile.png) | ![screenshot](documentation/wireframe/game-mobile.png)  | ![screenshot](documentation/wireframe/how-mobile.png) |
 
 ### Tablet Wireframes
 
-Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
-
-Game
-  - ![screenshot](documentation/wireframes/tablet-about.png)
-
-How to play
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
+| Index | Game | How to play |
+| ------------- | ------------- | ------------- |
+| ![screenshot](documentation/wireframe/index-tablet.png) | ![screenshot](documentation/wireframe/game-tablet.png)  | ![screenshot](documentation/wireframe/game-tablet.png) |
 
 ### Desktop Wireframes
 
-Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
-
-Game
-  - ![screenshot](documentation/wireframes/desktop-about.png)
-
-How to play
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
+| Index | Game | How to play |
+| ------------- | ------------- | ------------- |
+| ![screenshot](documentation/wireframe/index-laptop.png) | ![screenshot](documentation/wireframe/game-laptop.png)  | ![screenshot](documentation/wireframe/how-laptop.png) |
 
 ## Features
 
+The quiz website has three pages, Index/Home page, Game page, How to play page. The page i
+
+The website has an online quiz, the questions are images and have four answer.
 ### Existing Features
 
-- **Title for feature #1**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature01.png)
-
-- **Title for feature #2**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature02.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
+| **Image for ISL** | **Title for feature #2**| **Title for feature #2** |
+| ------------- | ------------- | ------------- |
+| ![screenshot](assets/images/isla.png) | ![screenshot](assets/images/isla.png)  | ![screenshot](assets/images/isla.png)
+| - This feature is an image that is use for the questions, without using the images as question the quiz wouldnt use at all | - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!| - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible! |
 
 ### Future Features
 
@@ -122,7 +94,7 @@ How to play
 
 ## Testing
 
-For all testing, please refer to the [TESTING.md](TESTING.md) file.
+For all testing, please refer to the [testing.md](testing.md) file.
 
 ## Deployment
 
@@ -169,32 +141,13 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
 
 ## Credits
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Content
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -212,20 +165,6 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
 ### Media
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
