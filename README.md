@@ -30,6 +30,7 @@ I use the font Verdana as it's it score highly for web accessibility, I kept tha
 ### New Site Users
 
 - As a new site user, I would like to easily understand where to go and how to play the quiz.
+- As a new site user, I would like to easily play the quiz.
 
 ### Returning Site Users
 
