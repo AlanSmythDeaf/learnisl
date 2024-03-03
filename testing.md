@@ -97,15 +97,11 @@ Sample browser testing documentation:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome-home.png) | ![screenshot](documentation/browser-chrome-about.png) | ![screenshot](documentation/browser-chrome-contact.png) | ![screenshot](documentation/browser-chrome-etc.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-about.png) | ![screenshot](documentation/browser-firefox-contact.png) | ![screenshot](documentation/browser-firefox-etc.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-edge-about.png) | ![screenshot](documentation/browser-chrome-edge.png) | ![screenshot](documentation/browser-edge-etc.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari-home.png) | ![screenshot](documentation/browser-safari-about.png) | ![screenshot](documentation/browser-safari-contact.png) | ![screenshot](documentation/browser-safari-etc.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browser-brave-home.png) | ![screenshot](documentation/browser-brave-about.png) | ![screenshot](documentation/browser-brave-contact.png) | ![screenshot](documentation/browser-brave-etc.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera-home.png) | ![screenshot](documentation/browser-opera-about.png) | ![screenshot](documentation/browser-opera-contact.png) | ![screenshot](documentation/browser-opera-etc.png) | Minor differences |
-| repeat for any other tested browsers | x | x | x | x | x |
+| Browser | Home/index | Game | How to play | Notes |
+| --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/browser/chrome-index.png) | ![screenshot](documentation/browser/chrome-game.png) | ![screenshot](documentation/browser/chrome-howtoplay.png) | Works as expected |
+| Firefox | ![screenshot](documentation/browser/firefox-index.png) | ![screenshot](documentation/browser/firefox-game.png) | ![screenshot](documentation/browser/firefox-howtoplay.png) | Works as expected |
+| Edge | ![screenshot](documentation/browser/edge-index.png) | ![screenshot](documentation/browser/firefox-game.png) | ![screenshot](documentation/browser/firefox-howtoplay.png) |  Works as expected |
 
 ## Responsiveness
 
