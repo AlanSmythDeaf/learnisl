@@ -141,7 +141,11 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
+There is no difference from local and deployment as you can see the examples below, the different in the game is the images as it's the shuffle questions
+
+| Index | Game |
+| --- | --- |
+| ![screenshot](documentation/localdeploy/local-deploy-index.png) | ![screenshot](documentation/localdeploy/local-deploy-game.png) |.
 
 
 
