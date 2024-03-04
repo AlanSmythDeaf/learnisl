@@ -14,7 +14,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "Z", correct: false},
           {text: "G", correct: false},
@@ -25,7 +25,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "N", correct: false},
           {text: "M", correct: true},
@@ -36,7 +36,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "O", correct: true},
           {text: "G", correct: false},
@@ -47,7 +47,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "B", correct: false},
           {text: "P", correct: false},
@@ -58,7 +58,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "Q", correct: false},
           {text: "K", correct: true},
@@ -69,7 +69,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "T", correct: true},
           {text: "H", correct: false},
@@ -80,7 +80,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "B", correct: false},
           {text: "L", correct: false},
@@ -91,7 +91,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "M", correct: false},
           {text: "N", correct: true},
@@ -102,7 +102,7 @@ const questions = [
     },
 
     {
-        question: "what is the sign for this a image?",
+        question: "what is the sign for this image?",
         answers: [
           {text: "F", correct: false},
           {text: "G", correct: false},
