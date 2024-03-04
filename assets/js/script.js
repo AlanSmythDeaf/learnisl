@@ -1,5 +1,6 @@
 /* jshint esversion: 11 */
 
+// Questions for the Quiz
 const questions = [
     { 
       question: "what is the sign for this image?",
@@ -112,6 +113,7 @@ const questions = [
     }
     ];
 
+// links to hmtl
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -119,6 +121,7 @@ const timer = document.getElementById('timer');
 
 let questionImg = document.getElementById("image");
 
+// create variables 
 let sec = 120;
 let time = setTimeout(myTimer,1000);
 
@@ -126,6 +129,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let shuffledQuestions = currentQuestionIndex;
 
+// Count down time 
 function myTimer() {
  time = setInterval(function () {
     timer.innerHTML = sec + "seconds left";
@@ -140,7 +144,7 @@ function myTimer() {
   }, 1000);
 }
 
-
+// start the quiz & shuffle the questions 
 function startQuiz (){
   shuffledQuestions = questions.sort(() => Math.random() - .5);
   currentQuestionIndex = 0;
@@ -149,6 +153,7 @@ function startQuiz (){
   showQuestion();
 }
 
+// Display question
 function showQuestion(){
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
@@ -176,6 +181,7 @@ function resetState(){
   }
 }
 
+// Display if user click right or wrong
 function selectAnswer(e){
   const selectBtn = e.target;
   const isCorrect = selectBtn.dataset.correct === "true";
@@ -202,6 +208,7 @@ Array.from(answerButtons.children).forEach(button => {
   nextButton.style.display = "block";
 }
 
+// show score when the quiz is complete
 function showScore(){
   resetState();
   clearInterval(time);

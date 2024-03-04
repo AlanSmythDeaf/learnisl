@@ -15,8 +15,6 @@ body {
     background-image: url("../images/bkground_image.png");
 
 }
-/* Header */
-
 /* Main */
 
 /* index Page*/
@@ -101,6 +99,7 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
 /* how to play */
 .playinfo{
     width: 80%;
