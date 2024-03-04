@@ -60,15 +60,17 @@ Balsamiq was used to create a layout of the website in the planning idea for the
 
 ## Features
 
-The quiz website has three pages, Index/Home page, Game page, How to play page. The page i
+The quiz website has three pages, Index/Home page, Game page, How to play page.
 
-The website has an online quiz, the questions are images and have four answer.
+The website is an online quiz, the questions are images and have four answer, when you chose an correct answer the sweet alert will pop up and say well done and an wrong answer pop will be hard luck. At the end of the quiz you will get a score result i.e You scored 3 our of 10! with time countdown left.
+
+The quiz has a timer count down, if you failed to complete the quiz before the countdown you will get an alert saying game over and it will bring you back to home page
 ### Existing Features
 
-| **Image for ISL** | **Title for feature #2**| **Title for feature #2** |
-| ------------- | ------------- | ------------- |
-| ![screenshot](assets/images/isla.png) | ![screenshot](assets/images/isla.png)  | ![screenshot](assets/images/isla.png)
-| - This feature is an image that is use for the questions, without using the images as question the quiz wouldnt use at all | - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!| - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible! |
+| **Image for ISL** | **Title for feature #2**|
+| ------------- | ------------- |
+| ![screenshot](assets/images/isla.png) | ![screenshot](documentation/welldone.png)  | 
+| - This feature is an image that is use for the questions, without using the images as question the quiz wouldnt use at all | - The feature of this is that giving an pop up alert is telling user that they are either correct or wrong, which I think it's useful|
 
 ### Future Features
 
@@ -85,6 +87,9 @@ The website has an online quiz, the questions are images and have four answer.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
 - [Python](https://www.python.org) used as the back-end programming language.
+- [Dev Tools](https://developer.chrome.com/docs/devtools) used for see different responsive pages, also edit pages and diagnose problems
+- [W3C](https://validator.w3.org/) used for validating the website coding
+- [Balsamiq](https://balsamiq.com) used for drawing a pre-website wireframes
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
@@ -92,6 +97,9 @@ The website has an online quiz, the questions are images and have four answer.
 - [Coolors](https://coolors.co/) used for displaying colours in the website
 - [Canva](https://www.canva.com/) used for designing the images in the roll of honour page
 - [google](https://www.google.com/) used for searching information
+- [Youtube](https://www.youtube.com/) used for searching tips
+- [Slack](https://slack.com/intl/en-ie/) used for looking at tips from others students projects
+- [co-pilot](https://copilot.microsoft.com/) used for writing english
 
 ## Testing
 
@@ -157,31 +165,18 @@ There is no difference from local and deployment as you can see the examples bel
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [Youtube](https://www.youtube.com/watch?v=riDzcEQbX6k) | Game Page | "Build a Quiz App with JavaScript" |
+| [Youtube](https://www.youtube.com/watch?v=PBcqGxrr9g8) | Game Page | "Make a Quiz App with JavaScript" |
+| [Sweet Alert](https://sweetalert2.github.io/) | Game Page | interactive pop-up |
+| [Co-pilot](https://copilot.microsoft.com/) | How to play | Choice for text on for how to play |
 
 ### Media
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [canva](https://www.canva.com) | entire page | image | background image on all page |
+| [canva](https://www.canva.com) | game | image | tool for compression |
+| [image](https://alansmythdeaf.github.io/learnisl/game.html) | game page | image | The ISL images are my own |
 
 ### Acknowledgements
 

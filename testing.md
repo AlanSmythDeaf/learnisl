@@ -95,42 +95,16 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+| Home / Index | Game | How to play |
+| --- | --- | --- |
+| ![screenshot](documentation/bug/bug-index.png) | ![screenshot](documentation/bug/bug-game.png) | ![screenshot](documentation/bug/bug-howtoplay.png) |
 
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
+There were bugs throughout the project but unfortunely I didn't manager to screenshot any of the issue, As I can recall I had issue 
 
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
+- With the images not changing through out the quiz, the issue was that in JS the questions part, the images area i.e. 'image: "assets/images/isla.png",' i forgot to put a comma in the rest of it.
 
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
-
-    ![screenshot](documentation/bug01.png)
-
-    - To fix this, I _____________________.
-
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bug02.png)
-
-    - To fix this, I _____________________.
-
+- 'CurrentQuestion' was used before it was declared which is illegal for 'let' variables so I move the it above the 'questionImg.src'
 
 ## Unfixed Bugs
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
 
 There are no remaining bugs that I am aware of.
