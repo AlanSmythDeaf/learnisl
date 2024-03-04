@@ -20,10 +20,11 @@ The main color in the back that I decided to use is
 - `#FFFFFF` used for primary text.
 - `#000000` used for for buttons and for how to play page.
 
+The reason I chose blue is that, it represent the Deaf Community and I ensure that black text has white background so that it's viviewing accessibility.
+
 ### Typography
 
 I use the font Verdana as it's it score highly for web accessibility, I kept that one font throughout the website
-
 
 ## User Stories
 
